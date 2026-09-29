@@ -1,4 +1,4 @@
-import CtaButton from './CtaButton'
+import EnrollForm from './EnrollForm'
 
 const STEPS = [
   { title: 'Think', body: 'What do you want to put on a page?' },
@@ -20,8 +20,8 @@ export default function HowTo() {
             </li>
           ))}
         </ol>
-        <div className="howto__cta" data-reveal>
-          <CtaButton size="xl">Join the magazine</CtaButton>
+        <div data-reveal>
+          <EnrollForm />
         </div>
       </div>
     </section>

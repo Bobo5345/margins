@@ -10,7 +10,8 @@ npm run logos    # re-strip white backgrounds from /logo into /public/logos
 ```
 
 ## Edit before launch
-- `src/config.js`: the **Google Form URL**, Instagram, contact email and magazine name.
+- **Connect the enrolment form to a Google Sheet:** follow `apps-script/README.md`, then paste the Web app URL into `enrollEndpoint` in `src/config.js`.
+- `src/config.js`: Instagram, contact email, magazine name, and the branch/semester lists (`ENROLL`).
 - `src/components/MagazinePage.jsx`: the page is drawn in SVG. Swap in scans of real student pages (WebP, lazy-loaded) when you have them.
 
 ## Structure
